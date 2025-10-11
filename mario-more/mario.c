@@ -20,11 +20,11 @@ int main()
 
 void print_grid(int n)
 {
-    for (int i = n; i != 0; i--)
+    for(int i = n; i != 0; i--)
     {
 
         // prints spaces
-        for (int j = 1; j < i; j++)
+        for(int j = 1; j < i; j++)
         {
             printf(" ");
         }
