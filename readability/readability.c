@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    char name[] = "Sami";
-    printf("%c\n", name[2]);
+    string name = get_int("What's your name?");
+    printf("Hello, %s\n", name);
 }
