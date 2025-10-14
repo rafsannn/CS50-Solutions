@@ -21,8 +21,8 @@ int main(void)
             word_count++;
         }
     }
-    float sentence_rate = ((strlen(text) + 1) / word_count) * 100;
-    printf("%f\n", sentence_rate);
+    float L = 100 * (strlen (text) + 1) / word_count;
+    printf("%f\n", L);
     // Calculate the percentage ot sentences and words
 
     // Apply 
